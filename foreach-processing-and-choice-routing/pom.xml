@@ -221,7 +221,7 @@
 					              <!-- run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase -->
 					              <execution>
 					                <goals>
-					                  <goal>site</goal>
+					                  <goal>verify</goal>
 					                </goals>
 					                <phase>deploy</phase>
 					              </execution>
